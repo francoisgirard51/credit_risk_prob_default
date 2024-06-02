@@ -16,17 +16,17 @@ This project focuses on developing a predictive model to estimate the probabilit
 The project involves three primary datasets, each offering different perspectives and data points crucial for developing the predictive model:
 
 ### 1. Training data (cs-training.csv)
-- 'SeriousDlqin2yrs': The person experienced 90 days past due delinquency or worse (Yes = 1, No = 0).
-- **RevolvingUtilizationOfUnsecuredLines**: Total balance on credit cards and personal lines of credit except real estate and no installment debt like car loans divided by the sum of credit limits.
-- **age**: Age of borrower in years.
-- **NumberOfTime30-59DaysPastDueNotWorse**: The number of times borrower has been 30-59 days past due but no worse in the last 2 years.
-- **DebtRatio**: Monthly debt payments, alimony, and living costs divided by month gross income.
-- **MonthlyIncome**: Monthly income.
-- **NumberOfOpenCreditLinesAndLoans**: The number of open loans (installment like car loan or mortgage) and credit lines (e.g., credit cards).
-- **NumberOfTimes90DaysLate**: Number of times borrower has been 90 days or more past due.
-- **NumberRealEstateLoansOrLines**: Number of mortgage and real estate loans including home equity lines of credit.
-- **NumberOfTime60-89DaysPastDueNotWorse**: Number of times borrower has been 60-89 days past due but no worse in the last 2 years.
-- **NumberOfDependents**: Number of dependents in the family excluding themselves (spouse, children, etc.).
+- `SeriousDlqin2yrs`: The person experienced 90 days past due delinquency or worse (Yes = 1, No = 0).
+- `RevolvingUtilizationOfUnsecuredLines`: Total balance on credit cards and personal lines of credit except real estate and no installment debt like car loans divided by the sum of credit limits.
+- `age`: Age of borrower in years.
+- `NumberOfTime30-59DaysPastDueNotWorse`: The number of times borrower has been 30-59 days past due but no worse in the last 2 years.
+- `DebtRatio`: Monthly debt payments, alimony, and living costs divided by month gross income.
+- `MonthlyIncome`: Monthly income.
+- `NumberOfOpenCreditLinesAndLoans`: The number of open loans (installment like car loan or mortgage) and credit lines (e.g., credit cards).
+- `NumberOfTimes90DaysLate`: Number of times borrower has been 90 days or more past due.
+- `NumberRealEstateLoansOrLines`: Number of mortgage and real estate loans including home equity lines of credit.
+- `NumberOfTime60-89DaysPastDueNotWorse`: Number of times borrower has been 60-89 days past due but no worse in the last 2 years.
+- `NumberOfDependents`: Number of dependents in the family excluding themselves (spouse, children, etc.).
 
 ### 2. Test data (cs-test.csv)
 The test dataset shares the same structure as the training dataset but does not include the `SeriousDlqin2yrs` outcome variable, as it is used to assess the model's performance on unseen data.
