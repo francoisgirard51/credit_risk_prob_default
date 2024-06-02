@@ -16,7 +16,7 @@ This project focuses on developing a predictive model to estimate the probabilit
 The project involves three primary datasets, each offering different perspectives and data points crucial for developing the predictive model:
 
 ### 1. Training data (cs-training.csv)
-- **SeriousDlqin2yrs**: The person experienced 90 days past due delinquency or worse (Yes = 1, No = 0).
+- 'SeriousDlqin2yrs': The person experienced 90 days past due delinquency or worse (Yes = 1, No = 0).
 - **RevolvingUtilizationOfUnsecuredLines**: Total balance on credit cards and personal lines of credit except real estate and no installment debt like car loans divided by the sum of credit limits.
 - **age**: Age of borrower in years.
 - **NumberOfTime30-59DaysPastDueNotWorse**: The number of times borrower has been 30-59 days past due but no worse in the last 2 years.
