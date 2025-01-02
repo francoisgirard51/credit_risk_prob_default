@@ -1,4 +1,4 @@
-# Credit ccoring project
+# Credit scoring project
 
 This project focuses on developing a predictive model to estimate the probability of an individual facing financial distress within a two-year timeframe. Credit scoring is a crucial tool used by banks to make informed lending decisions, influencing both the accessibility and terms of finance. The accuracy of these models plays a significant role in the economic and social fabric, affecting investment decisions and the overall functionality of market economies.
 
