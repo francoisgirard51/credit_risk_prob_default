@@ -37,7 +37,6 @@ This file provides a template for submitting predictions. It contains two column
 - **Probability**: The predicted probability of the event `SeriousDlqin2yrs` occurring.
 
 ## Data collection & preprocessing
-- **Importing libraries**: Required libraries include pandas, numpy, seaborn, and matplotlib.
 - **Loading data**: Training and test datasets are loaded and unnecessary columns are dropped.
 - **Initial inspection**: The first few rows of the dataset are inspected to understand its structure.
 
@@ -54,7 +53,7 @@ This file provides a template for submitting predictions. It contains two column
 - **Feature and target Preparation**: Preparing the features (X) and target (y) for training.
 
 ## Model training
-- **Training the Model**: Fitting the model on the training data.
+- **Training the model**: Fitting the model on the training data.
 
 ## Model evaluation
 - **Predictions**: Making predictions on the training set.
